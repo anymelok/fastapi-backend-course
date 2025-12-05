@@ -14,7 +14,7 @@ def load_books(filename='library.json'):
         except json.JSONDecodeError:
             return []
 
-def saving_books(books, filename='library.json'):
+def save_books(books, filename='library.json'):
     """
     Сохранение списка книг в JSON-файл.
     """
